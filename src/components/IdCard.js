@@ -5,7 +5,7 @@ function IdCard({ lastName, firstName, gender, height, birth, picture }) {
     '.' +
     height.toString().substring(1, height.length);
   return (
-    <div className="idCard">
+    <div className="box">
       <div className="idPicture">
         <img src={picture} alt="" />
       </div>
